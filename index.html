@@ -12,6 +12,9 @@
 
         <!-- Compiled and minified Materialize JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="./styles/geral.css">
     </head>
 
     <body>
@@ -27,13 +30,18 @@
                 </div>
             </nav>
         </header>
+        
+        <main>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lNKb-E0SVO1TKV8lR_UO6cDT_8Hr8S2x" width="640" height="480"></iframe>
+            </div>
+        </main>
 
-        <div id="map">
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lNKb-E0SVO1TKV8lR_UO6cDT_8Hr8S2x" width="640" height="480"></iframe>
-        </div>
-        <footer>
-            <span> Licenciamento do Site (???) </span>
-            <span> v0.1 </span>
+        <footer class="page-footer">
+            <span> v0.2 </span>
+            <div class="footer-copyright">
+                <span> © 2018 MIT License </span>
+            </div>
         </footer>
     </body>
 </html>
