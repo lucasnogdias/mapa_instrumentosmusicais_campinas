@@ -1,0 +1,35 @@
+.section{
+    border: solid 2px purple;
+    padding:10px;
+}
+
+.section-item{
+    padding:5px;
+    margin-bottom:2px;
+}
+
+.info-div{
+    width:70%;
+    float:left;
+}
+
+.pic{
+    width: 100%;
+}
+
+.pic-div{
+    width: 28%;
+    float: left;
+}
+
+h6.inc{
+    color:red;
+}
+
+h6.on{
+    color:orange;
+}
+
+h6.comp{
+    color:darkgreen
+}

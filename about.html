@@ -1,156 +1,181 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title> Lucas Dias - Resume</title>
-        <link rel="stylesheet" type="text/css" href="style/classes.css">
+        <meta charset="UTF-8">
+        <title> Instrumentos Músicais em Campinas - Sobre o Autor</title>
+
+        <!-- Import Google Icon Font -->
+        <link ref="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Compiled and minified Materialize CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="./styles/geral.css">
+        <link rel="stylesheet" type="text/css" href="./styles/about.css">
+
+        <!-- Compiled and minified Materialize JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 	</head>
 
 	<body>
-		<header>
-			<nav>
-				<a href="#pessoal">Dados Pessoais</a>
-				<a href="#profissional">Dados Profissionais</a>
-				<a href="#escola">Escolaridade</a>
-                <a href="./contato.html">Contato</a>
-                <a href="./disciplinas.html">Disciplinas</a>
-                <a href='./proProfile.html'>Perfil Profissional</a>
-			</nav>
-		</header>
+         <header>                   
+            <nav>                  
+                <div class="nav-wrapper purple">                       
+                    <a href="./index.html" class="site-logo">Instrumentos Músicais em Campinas</a>
+                    <ul id="nav-mobile" class="right">
+                        <li><a href="./index.html">Mapa</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+                        <li class="active"><a href="./about.html">Sobre</a></li>
+                    <ul>
+                </div>
+            </nav>
+        </header>
 
-		<div id="holder">
-			<div class="pic-div"> 
-				<figure>
-					<img class="pic" src="images/armoredSelf.jpg">
-				</figure>
-			</div>
-            <div class="info-div">
-			    <hr>
-			    <div id="pessoal" class="section">
-				    <h2>Dados Pessoais</h2>
-				    <ul>
-					    <li>
-						    <span>Nome completo:</span>
-    						<h3>Lucas Nogueira Dias</h3>
-	    				</li>
-		    			<li>
-			    			<span>Data de Nascimento: </span>
-				    		<h3>09/11/1989</h3>
-    					</li>
-	    				<li>
-		    				<span>Nacionalidade: </span>
-			    			<h3>Brasileiro</h3>
-				    	</li>
-    					<li>
-	    					<span>Cidade e Estado de residência: </span>
-		    				<h3>Campinas - SP</h3>
-			    		</li>
-				    	<li>
-					    	<span>Hobbies e Interesses: </span>
-						    <ul>
-    							<li>
-	    							Video Games
-		    					</li>
-			    				<li>
-				    				Música
-					    		</li>
-						    	<li>
-							    	Patins
-    							</li>
-	    						<li>
-		    						Armas Brancas/Medievais
-			    				</li>
-				    		</ul>
-					    </li>
-    				</ul>
+        <main>
+	    	<div id="holder">
+                <h2>Sobre o Projeto</h2>
+                <div class="row container">
+                    <p>Um mapa interativo listando as lojas de instrumentos músicais em atividade na cidade de Campinas-SP</p>
+                    <p>O site foi desenvolvido utilizando <a="https://pt.wikipedia.org/wiki/HTML">HTML</a> e <a="https://pt.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a> e o framework <a href="http://materializecss.com/">Materialize</a></p>
+                    <p>O mapa interativo foi gerado utilizando a ferramenta <a href="https://www.google.com/maps/d/">My Maps</a> do <a href="https>//www.google.com">Google</a></p>
+                    <p>Projeto criado em 2018 para a disciplina de Desenvolvimento Web, ministrada pelo professor André Bordignon para o quinto semestre do curso de Análise e Desenvolvimento de sistemas do Instituto Federal de São Paulo, campus Campinas.<p>
+                    <p>Projeto sob licença <a href="https://pt.wikipedia.org/wiki/Licença_MIT">MIT</a>, com código fonte disponível para consulta e modificação no <a href="https://github.com/lucasnogdias/mapa_instrumentosmusicais_campinas">GitHub</a></p>
+                </div>
+                <hr>
+                <h2>Sobre o Autor</h2>
+    			<div class="pic-div"> 
+				    <figure>
+			    		<img class="pic" src="images/armoredSelf.jpg">
+		    		</figure>
 	    		</div>
+                <div class="info-div">
+                    <br>
+			        <div id="pessoal" class="section">
+		    		    <h4>Dados Pessoais</h4>
+	    			    <ul>
+    					    <li class="section-item">
+						        <h5>Nome completo:</h5>
+    					    	<h6>Lucas Nogueira Dias</h6>
+	    			    	</li>
+		    	    		<li class="section-item">
+			        			<h5>Data de Nascimento: </h5>
+		    		    		<h6>09/11/1989</h6>
+        					</li>
+    	    				<li class="section-item">
+		    				    <h5>Nacionalidade: </h5>
+			    		    	<h6>Brasileiro</h6>
+				        	</li>
+    			    		<li class="section-item">
+	    	    				<h5>Cidade e Estado de residência: </h5>
+		        				<h6>Campinas - SP</h6>
+	    		    		</li>
+    				    	<li class="section-item">
+					        	<h5>Hobbies e Interesses: </h5>
+				    		    <ul>
+    		    					<li>
+	        							<h6>Video Games<h6>
+	    	    					</li>
+    			    				<li>
+				    			    	<h6>Música<h6>
+					    	    	</li>
+						        	<li>
+					    		    	<h6>Patins<h6>
+    			    				</li>
+			    	    		</ul>
+		    			    </li>
+        				</ul>
+    	    		</div>
     
-	    		<hr>
-		    	<div id="profissional" class="section">
-			    	<h2>Dados Profissionais</h2>
-    				<ol>
-	    				<li>
-		    				<h3>Estagiario em Desenvolvimento de Software</h3>
-			    			<ul>
-				    			<li>
-					    			<span>Empresa:</span>
-						    		<h5><a href="http://www.showcasepro.com.br/">ShowCasePro</a></h5>
-    							</li>
-	    						<li>
-		    						<span>Data:</span>
-			    					<p>04/2016 ~ Presente</p>
-				    			</li>
-					    	</ul>
-    					</li>
-	    				<li>
-		    				<h3>Desenvolvedor de Jogos</h3>
-			    			<ul>
-				    			<li>
-					    			<span>Empresa:</span>
-						    		<h5><a href="https://www.linkedin.com/company/3151762/">IQ Friends</a></h5>
-    							</li>
-	    						<li>
-		    						<span>Data:</span>
-			    					<p>08/2015 ~ 03/2016</p>
-				    			</li>
-					    	</ul>
-    					</li>
-	    				<li>
-		    				<h3>Estágiario em Desenvolvimento de Jogos</h3>
-			    			<ul>
-				    			<li>
-					    			<span>Empresa:</span>
-						    		<h5><a href="http://www.clickideia.com.br/portal/home/">ClickIdeia</a></h5>
-    							</li>
-	    						<li>
-		    						<span>Data:</span>
-			    					<p>06/2013 ~ 08/2015</p>
-				    			</li>
-					    	</ul>
-    					</li>
-	    			</ol>
-		    	</div>
-    
-	    		<hr>
-		    	<div id="escola" class="section">
-			    	<h2>Escolaridade</h2>
-    				<h3>Ensino Superior</h3>
-	    			<ul>
-		    			<li>
-			    			<h3> Análise e Desenvolvimento de Sistemas </h3>
-				    		<span>IFSP Campinas</span>
-					    	<span>01/2016 ~ Atual</span>
-						    <h6>Cursando</h6>
-    					</li>
-	    				<li>
-		    				<h3> Bacharelado em Física </h3>
-			    			<span>Unicamp</span>
-				    		<span>01/2012 ~ </span>
-					    	<h6>Incompleto</h6>
-    					</li>
-	    				<li>
-		    				<h3> Licensiatura em Física </h3>
-			    			<span>Unicamp</span>
-				    		<span>01/2009 ~ </span>
-					    	<h6>Incompleto</h6>
-    					</li>
-	    			</ul>
-		    		<br>
-			    	<h3>Ensino Médio</h3>
-    				<ul>
-	    				<li>
-		    				<a href="https://www.vestibulinhoetec.com.br/unidades-cursos/escola.asp?c=27">ETECAP</a>
-			    			<span>01/2006 ~ 12/2007</span>
-				    	</li>
-    					<li>
-	    					<a href="http://jaimekratz.com.br/">Jaime Kratz</a>
-		    				<span>01/2005 ~ 12/2005</span>
-			    		</li>
-    				</ul>
-	    		</div>
-                <br>
+	        		<hr>
+    		    	<div id="profissional" class="section">
+			    	    <h4>Dados Profissionais</h4>
+    			    	<ol>
+	    	    			<li class="section-item">
+		        				<h5>Estagiario em Desenvolvimento de Software</h5>
+	    		    			<ul>
+    				    			<li>
+						    	    	<h6><a href="http://www.showcasepro.com.br/">ShowCasePro</a></h6>
+    						    	</li>
+	    				    		<li>
+			        					<h6>04/2016 ~ Presente</h6>
+			    	    			</li>
+		    			    	</ul>
+        					</li>
+    	    				<li class="section-item">
+		    			    	<h5>Desenvolvedor de Jogos</h5>
+			    	    		<ul>
+				        			<li>
+		    				    		<h6><a href="https://www.linkedin.com/company/3151762/">IQ Friends</a></h6>
+        							</li>
+    	    						<li>
+			        					<h6>08/2015 ~ 03/2016</h6>
+			    	    			</li>
+		    			    	</ul>
+        					</li>
+    	    				<li class="section-item">
+		    			    	<h5>Estágiario em Desenvolvimento de Jogos</h5>
+			    	    		<ul>
+				        			<li>
+		    				    		<h6><a href="http://www.clickideia.com.br/portal/home/">ClickIdeia</a></h6>
+        							</li>
+    	    						<li>
+			    			    		<h6>06/2013 ~ 08/2015</h6>
+				    	    		</li>
+					        	</ul>
+    			    		</li>
+	    	    		</ol>
+		        	</div>
+        
+	        		<hr>
+    		    	<div id="escola" class="section">
+			        	<h4>Escolaridade</h4>
+    		    		<h5>Ensino Superior</h5>
+	        			<ul>
+	    	    			<li class="section-item">
+    			    			<h6> Análise e Desenvolvimento de Sistemas </h6>
+			    	    		<a href="https://www2.cmp.ifsp.edu.br/portal/">IFSP Campinas</a>
+		    			    	<span>01/2016 ~ Atual</span>
+	    					    <h6 class="on">Cursando</h6>
+        					</li>
+	    				    <li class="section-item">
+		    		    		<h6> Bacharelado em Física </h6>
+			        			<a href="http://www.unicamp.br/unicamp/">Unicamp</a>
+			    	    		<span>01/2012 ~ </span>
+		    			    	<h6 class="inc">Incompleto</h6>
+        					</li>
+    	    				<li class="section-item">
+		    				    <h6> Licenciatura em Física </h6>
+			    		    	<a href="http://www.unicamp.br/unicamp/">Unicamp</a>
+				        		<span>01/2009 ~ </span>
+				    	    	<h6 class="inc">Incompleto</h6>
+    		    			</li>
+	        			</ul>
+	    	    		<br>
+    			    	<h5>Ensino Médio</h5>
+    				    <ul>
+	    		    		<li class="section-item">
+		        				<a href="https://www.vestibulinhoetec.com.br/unidades-cursos/escola.asp?c=27">ETECAP</a>
+		    	    			<span>01/2006 ~ 12/2007</span>
+	    			    	</li>
+        					<li class="section-item">
+	    					    <a href="http://jaimekratz.com.br/">Jaime Kratz</a>
+		    			    	<span>01/2005 ~ 12/2005</span>
+			    	    	</li>
+    			    	</ul>
+	    	    	</div>
+                    <br>
+                </div>
+    		</div>
+        </main>
+
+        <footer class="page-footer purple">
+            <span> v0.4 </span>
+            <div class="footer-copyright">
+                <span> © 2018 MIT License </span>
             </div>
-		</div>
+        </footer>
+
 	</body>
 
 </html>
